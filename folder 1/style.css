@@ -1,0 +1,44 @@
+body
+{
+    background-color:rgb(244, 183, 172);
+}
+
+.abc
+{
+    background-color:rgb(244, 134, 115);
+}
+section
+{
+    /* border-width:large;
+    border-color: rgb(130, 62, 62);
+    border-style: double; */
+    border: 5px dotted blue;
+}
+
+/* for centereing a div or figure */
+figure 
+{
+    margin: auto;
+    width: 50%;
+}
+/* id-just for single entity 
+   class-for multiple entities */
+
+.tables
+{
+   border: 100px black dashed;
+   padding: 5%;
+}
+
+/* for centering a div or giving a definite marigin around the div */
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+
+  /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+

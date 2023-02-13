@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title> PAGE </title>
+</head>
+<body>
+
+
+    <div>
+    <h1> <font color = "blue"> Praburam K V </font></h1>
+    <a href="cbe.html" target="frames"> Second</a>
+    <a href="delhi.html" target="frames"> Third</a>
+
+    <hr/>
+    <!-- <hr/> - horizontal rule -->
+
+    <!-- for opening tabs in the same page <iframe> -->
+    <iframe height = "100" width = "1000" name="frames"></iframe>
+
+    <p> <u>Praburam</u> at kanini <i> chennai </i> working as <b> intern </b></p>
+    <!-- bold and strong(<strong>), italics and emphasise(<em>) -->
+<div id="tables">
+    <p> 
+        list 1 
+        <!-- unordered list <ul></ul> -->
+        <ul type="square">
+            <li> marina beach </li>
+            <li> besant nagar </li>
+        </ul>
+        <!-- ordered list <ol> </ol> -->
+
+        list 2
+        <ol> 
+            <li> one </li>
+            <li> two </li>
+            <li> three </li>
+        </ol>
+
+        <!--  data list <dl> </dl>, <dt> - data term,  <dd> - data description -->
+        list 3
+        <dl >
+            <dt> Tea </dt>
+            <dd> a very lomg description is here and is going on</dd>
+            <dt> Coffee </dt>
+            <dd> coffee is a beverage </dd> 
+        </dl>
+    </p>
+</div>
+
+    <br> <br>    <!-- <br> - is used for page breaks or gaps -->  
+
+
+    <!-- relative part starts from current folder, and absolute path starts from root location -->
+    <!-- jpeg and png are easier to render -->
+    <figure> 
+        <img src = "images/image1.PNG" height="150px" width="150px" alt = "image not available"> 
+        <figcaption> This is an image caption </figcaption>
+    </figure>
+<br>
+
+
+    <!-- Anchor tags - takes to a particular URL . TARGET - blank, self, top, parent (shows how the reference 
+        link should be opened )-->
+    <a href="https://google.com" target="blank"> This takes u to a link</a>
+</div>
+<!-- <div> </div> or <section> </section> or <article> </article> -->
+
+<pre> this is a ordered test
+    formatted text 
+</pre> 
+
+<!-- Tables -->
+<div> 
+    <table border="5"> 
+        <caption> Table caption </caption>
+        <thead>
+            <tr>
+                <th> S.No </th>
+                <th> Name </th>
+                <th> Phone </th> 
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td> 1 </td>
+                <td> Praburam </td>
+                <td> 123456 </td>
+            </tr>
+            <tr> 
+                <td> 2 </td>
+                <td> a very long name  </td>
+                <td> 12345676458 </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- input data  -->
+<div>
+    <br> 
+    <label> Name </label>
+    <input type="text">
+    <br /><br />
+    <label> Age </label>
+    <input type="number">
+    <br /><br />
+    <label> Gender </label>
+    <input type="radio" name ="rgGender" /> male
+    <input type="radio" name ="rgGender" /> Female
+    <br /><br />
+    <label> Are u a graduate? </label>
+    <input type="checkbox"/> Yes
+    <input type="checkbox"/> No
+    <br /><br />
+    <label> City </label>
+    <!-- Choosing from a pre-defined value -->
+    <select>
+        <option> coimbatore </option>
+        <option selected> chennai </option> <!-- selected attribute is for the default type-->
+        <option> delhi </option>
+    <br /><br />
+    <label> college </label>
+
+    <!-- Another way (newer)
+    <input list="myList"/>
+    <datalist id="myList">
+        <option> coimbatore </option>
+        <option> chennai </option> 
+        <option> delhi </option>
+    </datalist>
+    <br /><br /> -->
+</div>
+
+
+</body>
+</html>
